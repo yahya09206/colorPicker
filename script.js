@@ -10,6 +10,12 @@ var easyBtn = document.querySelector("#easyBtn");
 var hardBtn = document.querySelector("#hardBtn");
 
 easyBtn.addEventListener("click", function() {
+	easyBtn.classList.remove("selected");
+	easyBtn.classList.add("selected");
+
+});
+
+hardBtn.addEventListener("click", function() {
 
 });
 
