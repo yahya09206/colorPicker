@@ -33,6 +33,7 @@ for(var i = 0; i < squares.length; i++){
 		//compare color to picked color
 		if(clickedColor === pickedColor){
 			messageDisplay.textContent = "Correct";
+			resetButton.textContent = "Play Again?"
 			changeColor(clickedColor);
 			h1.style.background = clickedColor;
 		} else {
