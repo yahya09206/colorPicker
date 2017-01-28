@@ -25,7 +25,7 @@ for(var i = 0; i < squares.length; i++){
 		//compare color to picked color
 		if(clickedColor === pickedColor){
 			messageDisplay.textContent = "Correct";
-			changeColor();
+			changeColor(clickedColor);
 		} else {
 			this.style.background = "#232323";
 			messageDisplay.textContent = "Try Again"
