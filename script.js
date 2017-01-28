@@ -41,5 +41,5 @@ function changeColor(color){
 };
 
 function pickColor(){
-	
+	Math.floor(Math.random() * colors.length);
 }
