@@ -51,9 +51,10 @@ function generateRandomColors(num){
 
 function randomColor(){
 	//pick a "red from 0,255"
-	var r = Math.floor(Math.random() * 256)
+	var r = Math.floor(Math.random() * 256);
 	//pick a green from 0,255
-	var g = Math.floor(Math.random() * 256)
+	var g = Math.floor(Math.random() * 256);
 	//pick a blue from 0,255
-	var b = Math.floor(Math.random() * 256)
+	var b = Math.floor(Math.random() * 256);
+	"rgb(" + r, + "," + g + "," + b + "," + ")";
 }
