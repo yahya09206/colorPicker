@@ -9,7 +9,8 @@ body {
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
-	border-radius: 
+	border-radius: 15%;
+	transition: background 0.3s;
 }
 
 #container {
