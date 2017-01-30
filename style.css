@@ -32,6 +32,10 @@ h1 {
 	color: black;
 }
 
+#colorDisplay {
+	font-size: 200%;
+}
+
 .selected {
 	background: blue;
 }
