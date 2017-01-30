@@ -14,6 +14,7 @@ for(var i = 0; i < modeButtons.length; i++){
 		modeButtons[1].classList.remove("selected");
 		this.classList.add("selected");
 
+		reset();
 		//figure out how many squares to show
 		//pick new colors
 		//pick a new picked color
@@ -27,7 +28,7 @@ function reset(){
 	pickedColor = pickColor();
 	//change colorDisplay to match picked color
 	colorDisplay.textContent = pickedColor;
-	this.textContent = "New Colors";
+	resetButton.textContent = "New Colors";
 	messageDisplay.textContent = "";
 	//change colors of squares
 	for(var i = 0; i < squares.length; i++){
