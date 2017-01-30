@@ -1,7 +1,8 @@
 var numSquares = 6;
+var colors = [];
+var pickedColor;
 var colors = generateRandomColors(numSquares);
 var squares = document.querySelectorAll(".square");
-var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
@@ -38,6 +39,7 @@ function init(){
 			}
 		});
 	}
+	reset();
 }
 
 
