@@ -69,9 +69,6 @@ resetButton.addEventListener("click", function(){
 	reset();
 });
 
-colorDisplay.textContent = pickedColor;
-
-
 function changeColor(color){
 	//loop through all squares. change each color to match given color
 	for(var i = 0; i < squares.length; i++){
