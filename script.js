@@ -17,7 +17,9 @@ easyBtn.addEventListener("click", function() {
 	colorDisplay.textContent = pickedColor;
 	for(var i = 0; i < squares.length; i++){
 		if(colors[i]){
-			squares[i].style.background = colors;
+			squares[i].style.background = colors[i];
+		}else{
+			squares[i].style.display = none;
 		}
 	}
 });
